@@ -1,10 +1,12 @@
+// Matheus Pereira Cavalcante
+
 algoritmo "CalculoComissao"
     // Declaracao de variaveis
 var
      salarioBase, valorVenda, comissao, salarioFinal: Real
 
 inicio
-// Seção de Comandos
+// Seï¿½ï¿½o de Comandos
         Escreva("Digite o salario-base do funcionario: ")
         Leia(salarioBase)
         Escreva("Digite o valor de venda mensal do funcionario: ")
@@ -26,6 +28,6 @@ inicio
 
         salarioFinal <- salarioBase + comissao
 
-        Escreva ("O sálario final é de R$ ", salarioFinal)
+        Escreva ("O sï¿½lario final ï¿½ de R$ ", salarioFinal)
 
         fimalgoritmo
