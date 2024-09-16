@@ -1,0 +1,31 @@
+algoritmo "CalculoComissao"
+    // Declaracao de variaveis
+var
+     salarioBase, valorVenda, comissao, salarioFinal: Real
+
+inicio
+// Seção de Comandos
+        Escreva("Digite o salario-base do funcionario: ")
+        Leia(salarioBase)
+        Escreva("Digite o valor de venda mensal do funcionario: ")
+        Leia(valorVenda)
+
+        comissao <- 0
+
+        se (valorVenda >= 55000) e (valorVenda <= 100000) entao
+        comissao <- valorVenda * 0.02
+        fimse
+        
+        se valorVenda < 55000 entao
+        comissao <- 100
+        fimse
+        
+        se valorVenda > 100000 entao
+        comissao <- 5000
+        fimse
+
+        salarioFinal <- salarioBase + comissao
+
+        Escreva ("O sálario final é de R$ ", salarioFinal)
+
+        fimalgoritmo
