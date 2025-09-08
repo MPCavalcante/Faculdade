@@ -1,0 +1,14 @@
+# Matheus Pereira
+
+# Cadastro de Veículos com Cliente
+
+Este projeto em Java permite o cadastro de veículos e clientes. 
+Os dados são armazenados em memória durante a execução do programa.
+
+# Rodar
+ ```bash
+   javac modelo/*.java controle/*.java
+
+## Você pode acessar o código-fonte completo neste repositório:
+
+github.com/MPCavalcante/Faculdade
